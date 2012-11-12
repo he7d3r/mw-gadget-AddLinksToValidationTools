@@ -29,7 +29,7 @@ function addLinkToValidateCSS () {
 function addLinkToValidateHTML () {
 	var validator = 'http://validator.w3.org/check?uri=',
 		uri = 'http:' + mw.config.get( 'wgServer' ) + mw.config.get( 'wgScript' ) +
-			'?' + mw.config.get( 'wgCurRevisionId' );
+			'?oldid=' + mw.config.get( 'wgCurRevisionId' );
 	mw.util.addPortletLink(
 		'p-cactions',
 		validator + encodeURIComponent( uri ),
