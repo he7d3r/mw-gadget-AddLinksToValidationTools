@@ -13,8 +13,13 @@
 
 function addLinkToValidateCSS () {
 	var validator = 'http://jigsaw.w3.org/css-validator/validator?&usermedium=all&warning=1&lang=en&uri=',
-		uri = 'http:' + mw.config.get( 'wgServer' ) + mw.config.get( 'wgScript' ) +
-			'?title=' + mw.config.get( 'wgPageName' ) + '&action=raw&ctype=text/css';
+		uri = 'http:' + mw.config.get( 'wgServer' ) + mw.config.get( 'wgScript' ) + '?' +
+			$.param( {
+				title: mw.config.get( 'wgPageName' ),
+				oldid: mw.config.get( 'wgCurRevisionId' ),
+				action: 'raw',
+				ctype: 'text/css'
+			} );
 	mw.util.addPortletLink(
 		'p-cactions',
 		validator + encodeURIComponent( uri ),
