@@ -1,6 +1,7 @@
 /**
  * Add links to CSS and HTML validators
- * @author: [[User:Helder.wiki]]
+ * @author: Helder (https://github.com/he7d3r)
+ * @license: CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0/>
  * @author: [[User:Kwj2772]]
  * @source: [[commons:User:Kwj2772/validator.js]]?
  * License: Creative Commons Attribution-ShareAlike (BY-SA) 3.0
