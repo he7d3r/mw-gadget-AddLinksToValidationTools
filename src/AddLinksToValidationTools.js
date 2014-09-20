@@ -5,7 +5,6 @@
  * @author: [[User:Kwj2772]]
  * @source: [[commons:User:Kwj2772/validator.js]]?
  * License: Creative Commons Attribution-ShareAlike (BY-SA) 3.0
- * @tracking: [[Special:GlobalUsage/User:Helder.wiki/Tools/AddLinksToValidationTools.js]] ([[File:User:Helder.wiki/Tools/AddLinksToValidationTools.js]])
  */
 /*jslint browser: true, white: true*/
 /*global jQuery, mediaWiki */
