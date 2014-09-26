@@ -6,8 +6,6 @@
  * @source: [[commons:User:Kwj2772/validator.js]]?
  * License: Creative Commons Attribution-ShareAlike (BY-SA) 3.0
  */
-/*jslint browser: true, white: true*/
-/*global jQuery, mediaWiki */
 ( function ( mw, $ ) {
 'use strict';
 
